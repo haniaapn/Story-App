@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Story App Dicoding</string>
+    <string name="title_activity_detail_story">DetailStoryActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_deatial_story">DeatialStoryActivity</string>
+    <string name="sign_up_now">Sign up now!</string>
+    <string name="create_your_own_story_with_us">Create your own story with us!</string>
+    <string name="picture_welcome">Welcome picture</string>
+    <string name="register">Register</string>
+    <string name="already_have_account_login">Already have account? <font color="#394867">Login</font></string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="error_valid_email">Please enter valid email</string>
+    <string name="error_valid_password">Password minimal 8 or more characters</string>
+    <string name="storyapp"><font color="#212A3E">Story</font><font color="#9BA4B5">App</font></string>
+    <string name="welcome_back">Welcome back!</string>
+    <string name="create_your_story_today">Create your story today!</string>
+    <string name="don_t_have_account_register">Don\'t have account? <font color="#394867">Register</font></string>
+    <string name="map">Map</string>
+    <string name="language">Language</string>
+    <string name="sign_out">Logout</string>
+    <string name="logo">Logo</string>
+    <string name="user_name">User name</string>
+    <string name="description">Description</string>
+    <string name="photo">photo</string>
+    <string name="button_add_story">Button add story</string>
+    <string name="share_your_story">Share your story!</string>
+    <string name="post">Post</string>
+    <string name="bagikan_lokasi">Bagikan lokasi</string>
+    <string name="location">Location</string>
+    <string name="camera">Camera</string>
+    <string name="galery">Galery</string>
+    <string name="icon_camera">Icon camera</string>
+    <string name="icon_galery">Icon galery</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="icon_switch_camera">Icon switch camera</string>
+    <string name="login">Login</string>
+    <string name="title_sorry">Sorry</string>
+    <string name="failed_login">Failed login</string>
+    <string name="try_again">Try again</string>
+    <string name="error_empty_email">Email is required</string>
+    <string name="error_empty_password">Password is required</string>
+    <string name="error_empty_name">Name is required</string>
+    <string name="add_new_story">Add new story</string>
+    <string name="user_location">Users location</string>
+    <string name="retry">Try Again</string>
+    <string name="list_story">List story</string>
+</resources>

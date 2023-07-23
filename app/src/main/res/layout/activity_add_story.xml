@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="25dp"
+    tools:context=".ui.add_story.AddStoryActivity">
+
+
+    <ImageView
+        android:id="@+id/iv_item_photo"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:contentDescription="@string/photo"
+        android:src="@drawable/ic_baseline_image_egg_blue_24"
+        app:layout_constraintBottom_toTopOf="@+id/guideHorizontal1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ImageContrastCheck" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideHorizontal1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.45" />
+
+    <ImageView
+        android:id="@+id/ic_camera"
+        android:contentDescription="@string/icon_camera"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="50dp"
+        android:src="@drawable/ic_baseline_photo_camera__dark_blue_24"
+        app:layout_constraintBottom_toTopOf="@id/guideHorizontal2"
+        app:layout_constraintEnd_toStartOf="@+id/ic_galeri"
+        app:layout_constraintTop_toBottomOf="@id/guideHorizontal1" />
+
+    <TextView
+        android:id="@+id/tv_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/camera"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/ic_camera"
+        app:layout_constraintStart_toStartOf="@+id/ic_camera"
+        app:layout_constraintTop_toBottomOf="@+id/ic_camera" />
+
+    <ImageView
+        android:id="@+id/ic_galeri"
+        android:contentDescription="@string/icon_galery"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_baseline_image_dark_blue_24"
+        app:layout_constraintBottom_toTopOf="@id/guideHorizontal2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideHorizontal1" />
+
+    <TextView
+        android:id="@+id/tv_galery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/galery"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/ic_galeri"
+        app:layout_constraintStart_toStartOf="@+id/ic_galeri"
+        app:layout_constraintTop_toBottomOf="@+id/ic_galeri" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideHorizontal2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.65" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_decription"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxCornerRadiusTopEnd="15dp"
+        android:layout_margin="20dp"
+        app:boxCornerRadiusBottomStart="15dp"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideHorizontal2">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ed_add_description"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center_vertical"
+            android:hint="@string/share_your_story"
+            android:inputType="textMultiLine"
+            android:maxLines="5"
+            android:minLines="3"
+            android:textColorHint="#757575"
+            app:boxCornerRadiusBottomEnd="15dp"
+            app:boxCornerRadiusBottomStart="15dp"
+            app:boxCornerRadiusTopEnd="15dp"
+            app:boxCornerRadiusTopStart="15dp"
+            tools:ignore="VisualLintTextFieldSize,TextContrastCheck" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:contentDescription="@string/bagikan_lokasi"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        app:layout_constraintBottom_toTopOf="@id/guideHorizontal2"
+        app:layout_constraintStart_toEndOf="@+id/ic_galeri"
+        app:layout_constraintTop_toBottomOf="@id/guideHorizontal1" />
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/location"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/switch_location"
+        app:layout_constraintStart_toStartOf="@+id/switch_location"
+        app:layout_constraintTop_toBottomOf="@+id/switch_location" />
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_button"
+        android:text="@string/post"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/til_decription" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

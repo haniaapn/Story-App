@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Story App Dicoding</string>
+    <string name="title_activity_detail_story">DetailStoryActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_deatial_story">DeatialStoryActivity</string>
+    <string name="sign_up_now">Daftar Sekarang!</string>
+    <string name="create_your_own_story_with_us">Bagikan ceritamu bersama kami!</string>
+    <string name="picture_welcome">Gmbar selamat datang</string>
+    <string name="register">Daftar</string>
+    <string name="already_have_account_login">Sudah punya akun? <font color="#394867">Masuk</font></string>
+    <string name="name">Nama</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="error_valid_email">Masukan email yang benar</string>
+    <string name="error_valid_password">Minimal passwors 8 atau lebih karakter</string>
+    <string name="storyapp"><font color="#212A3E">Story</font><font color="#9BA4B5">App</font></string>
+    <string name="welcome_back">Selamat datang kembali!</string>
+    <string name="create_your_story_today">Bagikan ceritamu hari ini!</string>
+    <string name="don_t_have_account_register">Tidak punya akun? <font color="#394867">Daftar</font></string>
+    <string name="map">Map</string>
+    <string name="language">Bahasa</string>
+    <string name="sign_out">Keluar</string>
+    <string name="logo">Logo</string>
+    <string name="user_name">Nama pengguna</string>
+    <string name="description">Deskripsi</string>
+    <string name="photo">Foto</string>
+    <string name="button_add_story">Button tambah cerita</string>
+    <string name="share_your_story">Bagikan ceritamu!</string>
+    <string name="post">Post</string>
+    <string name="bagikan_lokasi">Bagikan lokasi</string>
+    <string name="location">Lokasi</string>
+    <string name="camera">Kamera</string>
+    <string name="galery">Galeri</string>
+    <string name="icon_camera">Icon kamera</string>
+    <string name="icon_galery">Icon galeri</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="icon_switch_camera">Putar kamera</string>
+    <string name="login">Masuk</string>
+    <string name="title_sorry">Maaf</string>
+    <string name="failed_login">Login gagal</string>
+    <string name="try_again">Coba lagi</string>
+    <string name="error_empty_email">Email Wajib diisi</string>
+    <string name="error_empty_password">Password wajib diisi</string>
+    <string name="error_empty_name">Nama wajib diisi</string>
+    <string name="add_new_story">Tambah cerita baru</string>
+    <string name="user_location">Lokasi pengguna</string>
+    <string name="retry">Coba lagi</string>
+    <string name="list_story">Kumpulan cerita</string>
+</resources>
